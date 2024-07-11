@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <script>
+
+             //evan and odd number print
+
+
+
+
+        let opper = prompt(`inter your opperater <br> 1:even <br> 2:odd`)
+       
+        if (opper == 1) {
+            let evan = prompt("enter your evan number lenth")
+            document.write(`<center><h1>EVAN</h1></center>`)
+            for (let i = 0; i <= evan; i++) {
+                if (i % 2 === 0) {
+                    document.write(` <center>${i} </center><br>`);
+                }
+            }
+        }
+        else if (opper == 2) {
+            let odd = prompt("enter your odd number lenth")
+            document.write(`<center><h1>Odd</h1></center>`)
+            for (let i = 0; i <= odd; i++) {
+                if (i % 2 != 0) {
+                    document.write(`<center>${i}</center><br>`);
+                }
+            }
+        }else{
+            document.write("invailed opperater")
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
